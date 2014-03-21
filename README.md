@@ -27,6 +27,6 @@ and enjoy :)
 
 ## Disclaimer
 
-This was a quick hack made in 5 minutes, and there are some issues I haven't investigated (example: apparently, psd.rb assumes your document is 72dpi when calculating font sizes, so you'll get the wrong numbers if your documents is, say, 144dpi).
+This was a quick hack made in 5 minutes. It's only known to work on my laptop (OSX 10.9.2), and there are some issues I haven't investigated (example: apparently, psd.rb assumes your document is 72dpi when calculating font sizes, so you'll get the wrong numbers if your documents is, say, 144dpi).
 
-You are on your own :)
+In short: you are on your own :)
