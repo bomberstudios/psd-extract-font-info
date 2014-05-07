@@ -16,6 +16,8 @@ psd.tree.descendant_layers.each do |child|
     puts "Font name:              " + child.text[:font][:name]
     puts "Font size(s) in points: " + child.text[:font][:sizes].join(",")
     puts "Font color(s) in RGBA:  " + child.text[:font][:colors].join(",")
+    puts "JSON: "
+    puts JSON.generate(child.text)
     puts "\n"
   end
 end
